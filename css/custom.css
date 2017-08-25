@@ -1,0 +1,111 @@
+h4{
+    font-size: 18px;
+    padding-top: 20px;
+
+}
+
+.cd-primary-nav .see-all a {
+    /* different style for the See all button on mobile and tablet */
+    color: #69aa6f;
+}
+.cd-primary-nav .cd-nav-gallery .cd-nav-item, .cd-primary-nav .cd-nav-icons .cd-nav-item {
+    /* items with picture (or icon) and title */
+    height: 80px;
+    line-height: 80px;
+}
+.cd-primary-nav .cd-nav-gallery .cd-nav-item h3, .cd-primary-nav .cd-nav-icons .cd-nav-item h3 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.cd-primary-nav .cd-nav-gallery .cd-nav-item {
+    padding-left: 90px;
+}
+.cd-primary-nav .cd-nav-gallery .cd-nav-item img {
+    position: absolute;
+    display: block;
+    height: 40px;
+    width: auto;
+    left: 20px;
+    top: 50%;
+    margin-top: -20px;
+}
+.cd-primary-nav .cd-nav-icons .cd-nav-item {
+    padding-left: 75px;
+}
+.cd-primary-nav .cd-nav-icons .cd-nav-item p {
+    color: #2e3233;
+    font-size: 1.3rem;
+    /* hide description on small devices */
+    display: none;
+}
+.cd-primary-nav .cd-nav-icons .cd-nav-item::before {
+    /* item icon */
+    content: '';
+    display: block;
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    margin-top: -20px;
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 40px 40px;
+}
+.cd-primary-nav .cd-nav-icons .cd-nav-item.item-1::before {
+    background-image: url("../img/line-icon-1.svg");
+}
+.cd-primary-nav .cd-nav-icons .cd-nav-item.item-2::before {
+    background-image: url("../img/line-icon-2.svg");
+}
+.cd-primary-nav .cd-nav-icons .cd-nav-item.item-3::before {
+    background-image: url("../img/line-icon-3.svg");
+}
+.cd-primary-nav .cd-nav-icons .cd-nav-item.item-4::before {
+    background-image: url("../img/line-icon-4.svg");
+}
+.cd-primary-nav .cd-nav-icons .cd-nav-item.item-5::before {
+    background-image: url("../img/line-icon-5.svg");
+}
+.cd-primary-nav .cd-nav-icons .cd-nav-item.item-6::before {
+    background-image: url("../img/line-icon-6.svg");
+}
+.cd-primary-nav .cd-nav-icons .cd-nav-item.item-7::before {
+    background-image: url("../img/line-icon-7.svg");
+}
+.cd-primary-nav .cd-nav-icons .cd-nav-item.item-8::before {
+    background-image: url("../img/line-icon-8.svg");
+}
+
+.company-contact{
+    width: 100%;
+    height: 110px;
+    background-color: #F4F4F4;
+    margin: 2px;
+}
+
+
+.company-contact img {
+
+    border-radius: 2px;
+    background-color: #F4F4F4;
+    box-shadow: 0.1px 0.1px 0.1px 0.1px #888888;
+
+}
+
+.logo-company{
+    width: 80px;
+    height: 80px;
+    background-color: #FFFFFF;
+    padding: 5px 5px 5px 5px;
+    margin-top: 15px;
+    border-radius: 2px;
+}
+
+.title{
+    margin-top: 5px;
+}
+
+h6{
+    font-weight: 600;
+}
